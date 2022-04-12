@@ -10,10 +10,8 @@ const randomImageSource = `images/` + randomDiceImage;
 // images/dice1.png - 6
 
 // locate all elements with img tag
-const image1 = document.querySelectorAll("img")[0];
-
 // set the src value on the attribute with randomImageSource
-image1.setAttribute("src", randomImageSource);
+document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
 // change for index 1
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource);
