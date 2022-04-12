@@ -11,3 +11,6 @@ const randomImageSource = `images/` + randomDiceImage;
 
 // locate all elements with img tag
 const image1 = document.querySelectorAll("img")[0];
+
+// set the src value on the attribute with randomImageSource
+image1.setAttribute("src", randomImageSource);
