@@ -9,3 +9,5 @@ const randomDiceImage = `dice` + randomNumber1 + `.png`;
 const randomImageSource = `images/` + randomDiceImage;
 // images/dice1.png - 6
 
+// locate all elements with img tag
+const image1 = document.querySelectorAll("img")[0];
