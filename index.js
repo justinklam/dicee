@@ -13,5 +13,9 @@ const randomImageSource = `images/` + randomDiceImage;
 // set the src value on the attribute with randomImageSource
 document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
+const randomNumber2 = Math.floor(Math.random() * (6)) + 1;
+
+var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
+
 // change for index 1
-document.querySelectorAll("img")[1].setAttribute("src", randomImageSource);
+document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
